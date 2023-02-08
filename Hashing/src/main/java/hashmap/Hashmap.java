@@ -15,5 +15,5 @@ public class Hashmap {
         map.clear();
         l.log(Level.INFO,()->"After CLear Size:"+map.size());
 	}
-        System.out.write("Finished");
+	System.out.print("Finished");
 }
