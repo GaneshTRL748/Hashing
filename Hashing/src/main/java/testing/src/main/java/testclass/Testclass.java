@@ -1,21 +1,24 @@
 package testclass;
-
-import java.io.FileDescriptor;
-import java.io.FileOutputStream;
-import java.io.PrintStream;
-
+import java.util.*;
 public class Testclass {
-	String name;
-    public String display()
-    {
-    	return this.name;
-    }
 	public static void main(String[] args) {
-	       Testclass a1=new Testclass();
-	       a1.name="ganesh";
-	       PrintStream myOutput=new PrintStream(new FileOutputStream(FileDescriptor.out));
-	       myOutput.print("Name:"+a1.name+a1.display());
-	       
-
+	       Scanner p=new Scanner(System.in);
+		int temp=p.nextInt();  
+	        switch(temp)
+		{
+			       case 1:
+				{
+					if(temp==1)
+					{
+						logger.log("hello")'
+					}
+					break;
+				}
+			        default:
+				{
+					logger.log("Invalid choice");
+					break;
+				}
+		}
 }
 }
