@@ -17,7 +17,7 @@ public class Tictactoe {
 			out.print("2-");
 		}
 	}
-    char arr[][]= {{'-','-','-'},{'-','-','-'},{'-','-','-'}};
+    char[][] arr= {{'-','-','-'},{'-','-','-'},{'-','-','-'}};
 	public static void main(String[] args) {
 		Tictactoe a1=new Tictactoe();
 		out.print("First player-X and second player player-O");
