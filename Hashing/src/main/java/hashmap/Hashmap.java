@@ -10,7 +10,6 @@ public class Hashmap {
 	    map.put("ganesh",121);
 	    map.put("suba", 122);
 	    map.put("sesha", 123);
-       // List<Entry<String,Integer>> list=new ArrayList<>(map.entrySet());
 	    map.remove("sesha");
 	    out.println("Size-"+map.size());
 	    out.println(map.get("ganesh"));
